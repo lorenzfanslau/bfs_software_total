@@ -226,6 +226,8 @@ add_executable(flight
 	flight/datalog.cc
 	flight/telem.cc
 	flight/analog.cc
+	flight/ms4525_src/ms4525do.cc
+	# flight/ms4525_src/ms4525do.h
 	${PROTO_SRCS}
 	${PROTO_HDRS}
 )

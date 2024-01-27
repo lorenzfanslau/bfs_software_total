@@ -3,6 +3,9 @@
 #include <optional>
 #include "core/core.h"
 
+#ifndef FLIGHT_CODE_INCLUDE_FLIGHT_ADDITIONAL_PRESSURE_H_
+#define FLIGHT_CODE_INCLUDE_FLIGHT_ADDITIONAL_PRESSURE_H_
+
 namespace bfs {
 
 struct PresEditConfig {
@@ -21,3 +24,5 @@ struct PresEditData {
 
 
 }  // namespace bfs
+
+#endif  // FLIGHT_CODE_INCLUDE_FLIGHT_ADDITIONAL_PRESSURE_H_
