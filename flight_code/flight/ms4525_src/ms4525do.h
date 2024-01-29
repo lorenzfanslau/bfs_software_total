@@ -26,13 +26,14 @@
 #ifndef MS4525_SRC_MS4525_H_  // NOLINT
 #define MS4525_SRC_MS4525_H_
 
-#if defined(ARDUINO)
-/*#include "Arduino.h"
-#include "Wire.h"*/
-#else
+// #if defined(ARDUINO)
+// /*#include "Arduino.h"
+// #include "Wire.h"*/
+// #else
+#include <cstdint>
 #include "core/core.h"
-#include "include/flight/additional_pressure.h"
-#endif
+#include "flight/additional_pressure.h"
+// #endif
 
 namespace bfs {
 

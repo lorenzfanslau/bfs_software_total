@@ -130,10 +130,10 @@ void DatalogAdd(const AircraftData &ref) {
   datalog_msg_.pres_diff_pres_pa = ref.sensor.diff_pres.pres_pa;
   datalog_msg_.pres_diff_die_temp_c = ref.sensor.diff_pres.die_temp_c;
   /* eigener Sensor*/
-  datalog_msg_.new_data = ref.sensor.edit_pres.new_data;
-  datalog_msg_.healthy = ref.sensor.edit_pres.healthy;
-  datalog_msg_.pres_pa = ref.sensor.edit_pres.pres_pa;
-  datalog_msg_.die_temp_c = ref.sensor.edit_pres.die_temp_c;
+  // datalog_msg_.new_data = ref.sensor.edit_pres.new_data;
+  // datalog_msg_.healthy = ref.sensor.edit_pres.healthy;
+  // datalog_msg_.pres_pa = ref.sensor.edit_pres.pres_pa;
+  // datalog_msg_.die_temp_c = ref.sensor.edit_pres.die_temp_c;
   /* Analog data */
   for (std::size_t i = 0; i < NUM_AIN_PINS; i++) {
     datalog_msg_.adc_volt[i] = ref.sensor.adc.volt[i];
